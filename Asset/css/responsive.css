@@ -1,0 +1,48 @@
+@media (max-width: 900px) {
+.top-bar {
+    background-color: var(--secondary-text-color); /* Utilise ton bleu existant */
+    width: 100%;
+    height: 4.7rem;
+    position: fixed; /* Fixe la barre en haut même quand on scrolle */
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+.top-bar-content {
+    display: flex;
+    justify-content: space-between; /* Espace les icônes et le texte */
+    align-items: center;
+    width: 100%;
+    color: white;
+    font-size: 1.8rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo-text {
+    font-weight: 600;
+}
+
+
+    body { padding: 0 4rem; margin-top: 4rem; }
+
+    .image-connexion { 
+        display: none !important; /* L'IMAGE DISPARAÎT COMME DEMANDÉ */
+    }
+
+    .connexion { width: 100%; margin-top: 13rem;}
+
+    .connexion-grid { 
+        max-width: 100%; 
+        text-align: center;
+    }
+
+    .input-group label { text-align: left; }
+
+    .forgot-link { text-align: center; }
+
+    .btn-login { width: 90%; margin: 0 auto; display: block; }
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="Asset/css/style.css">
+    <link rel="stylesheet" href="Asset/css/responsive.css">
+    <link rel="stylesheet" href="Asset/css/index.css">
+    <title>login layout</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Hebrew:wght@100;200;300;400;500;600;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montaga&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    </style>
+</head>
+
+<body>
+    <header class="top-bar">
+        <div class="top-bar-content"></div>
+    </header>
+    <div class="connexion">
+        <div class="image-connexion">
+            <img src="Asset/images/3d-hygge-young-woman-working-at-the-table-wearing-vr-glasses 1.svg"
+                alt="image-connexion">
+        </div>
+        <div class="connexion-grid">
+            <h1>Connexion a Blue Ocean</h1>
+            <form action="/connexion" method="POST">
+                <div class="input-group">
+                    <label for="email">Email</label>
+                    <div class="input-wrapper">
+                        <i class="fa-solid fa-envelope"></i> <input type="email" id="email" name="email"
+                            placeholder="abc@example.com" required>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <label for="password">Mot de passe</label>
+                    <div class="input-wrapper">
+                        <i class="fa-solid fa-lock"></i> <input type="password" id="password" name="password" required
+                            placeholder="* * * * * *">
+                    </div>
+                </div>
+                <a href="#">Mot de passe oublié?</a>
+                <a href="#" style="text-decoration: none;">
+                    <button type="submit">Connexion</button>
+                </a>
+            </form>
+            <br><br><br>
+            <div class="separateur">
+                <p>ou avec </p>
+            </div>
+            <div class="social-login">
+                <a href="#" class="social-circle google">
+                    <img src="Asset/images/chercher 1.svg" alt="Google logo">
+                </a>
+                <a href="#" class="social-circle facebook">
+                    <img src="Asset/images/facebook 1.svg" alt="Facebook logo">
+                </a>
+                <a href="#" class="social-circle github">
+                    <img src="Asset/images/github (1) 1.svg" alt="GitHub logo">
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
